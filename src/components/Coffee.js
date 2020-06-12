@@ -1,4 +1,5 @@
 import React from "react";
+import "./Cup.scss";
 import "./Coffee.scss";
 
 function Coffee() {
@@ -164,6 +165,62 @@ function Coffee() {
         </div>
         <div class="info">
           <h1>chocolate milk</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-venti latte-macchiato">
+        </div>
+        <div class="info">
+          <h1>latte macchiato</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-venti glace">
+        </div>
+        <div class="info">
+          <h1>glace</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-venti freddo">
+        </div>
+        <div class="info">
+          <h1>freddo</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-venti irish-coffee">
+        </div>
+        <div class="info">
+          <h1>irish coffee</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-venti frappe">
+        </div>
+        <div class="info">
+          <h1>frappe</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-venti cappuccino-freddo">
+        </div>
+        <div class="info">
+          <h1>cappuccino freddo</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-venti caramel-frappe">
+        </div>
+        <div class="info">
+          <h1>caramel frappe</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-venti espresso-laccino">
+        </div>
+        <div class="info">
+          <h1>espresso laccino</h1>
         </div>
       </div>
     </div>

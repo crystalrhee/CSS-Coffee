@@ -1,60 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Lora");
 @import "./Main.scss";
 
-body {
-  background: $dark;
-  font-family: $sans;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: 100px;
-}
-
-.item {
-  position: relative;
-}
-
-.cup {
-  background: $dark;
-  border: 2px solid $white;
-  position: absolute;
-}
-
-.handle {
-  background: transparent;
-  border: 2px solid $white;
-  border-radius: 60% 30%;
-  height: 20px;
-  left: 90%;
-  position: absolute;
-  top: 10%;
-  width: 15px;
-  z-index: -1;
-}
-
-.cup-tall {
-  width: 55px;
-  height: 40px;
-  border-radius: 0 0 5rem 5rem;
-  margin: 30px;
-}
-
-.cup-grande {
-  width: 70px;
-  height: 50px;
-  border-radius: 0 0 5rem 5rem;
-  margin: 23px;
-}
-
-.cup-venti {
-  width: 60px;
-  height: 70px;
-  border-radius: 10% 10% 50% 50%;
-}
-
 .espresso {
   background: linear-gradient(to bottom, $dark 60%, $espresso 60%);
 }
@@ -217,22 +163,75 @@ body {
   );
 }
 
-.info {
-  margin-left: 150px;
-  margin-top: 30px;
+.latte-macchiato {
+  background: linear-gradient(
+    to bottom,
+    $milkfoam 25%,
+    $espresso 25%,
+    $espresso 65%,
+    $steamedMilk 65%
+  );
 }
-
-h1 {
-  color: $white;
-  font-size: 1em;
-  letter-spacing: 3px;
+.glace {
+  background: linear-gradient(
+    to bottom,
+    $steamedMilk 65%,
+    $espresso 65%
+  );
 }
-
-p {
-  color: $white;
-  font-family: $serif;
-  text-transform: none;
-  font-size: 0.7em;
-  letter-spacing: 0.5px;
-  margin-top: -5px;
+.freddo {
+  background: linear-gradient(
+    to bottom,
+    $water 40%,
+    $liquor 40%,
+    $liquor 65%,
+    $espresso 65%
+  );
+}
+.irish-coffee {
+  background: linear-gradient(
+    to bottom,
+    $whippedCream 40%,
+    $liquor 40%,
+    $liquor 65%,
+    $espresso 65%
+  );
+}
+.frappe {
+  background: linear-gradient(
+    to bottom,
+    $steamedMilk 35%,
+    $milkfoam 35%,
+    $milkfoam 70%,
+    $espresso 70%
+  );
+}
+.cappuccino-freddo {
+  background: linear-gradient(
+    to bottom,
+    $whippedCream 25%,
+    $steamedMilk 25%,
+    $steamedMilk 45%,
+    $water 45%,
+    $water 65%,
+    $espresso 65%
+  );
+}
+.caramel-frappe {
+  background: linear-gradient(
+    to bottom,
+    $whippedCream 25%,
+    $steamedMilk 25%,
+    $steamedMilk 45%,
+    $water 45%,
+    $water 65%,
+    $espresso 65%
+  );
+}
+.espresso-laccino {
+  background: linear-gradient(
+    to bottom,
+    $water 55%,
+    $espresso 55%
+  );
 }
