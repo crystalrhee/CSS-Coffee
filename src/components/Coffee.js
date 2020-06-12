@@ -78,17 +78,94 @@ function Coffee() {
           <h1>cappuccino</h1>
         </div>
       </div>
-      <div class="item">Ten</div>
-      <div class="item">One</div>
-      <div class="item">Two</div>
-      <div class="item">Three</div>
-      <div class="item">Four</div>
-      <div class="item">Fifteen</div>
-      <div class="item">One</div>
-      <div class="item">Two</div>
-      <div class="item">Three</div>
-      <div class="item">Four</div>
-      <div class="item">Twenty</div>
+      <div class="item">
+        <div class="cup cup-grande americano">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>americano</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande cafelatte">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>café latte</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande flatwhite">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>flat white</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande marocchino">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>marocchino</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande mocha">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>mocha</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande bicerin">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>bicerin</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande breve">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>breve</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande rafcoffee">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>raf coffee</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande meadraf">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>mead raf</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande viennacoffee">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>vienna coffee</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="cup cup-grande chocolatemilk">
+          <div class="handle"></div>
+        </div>
+        <div class="info">
+          <h1>chocolate milk</h1>
+        </div>
+      </div>
     </div>
   );
 }

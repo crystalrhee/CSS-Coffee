@@ -7,7 +7,6 @@ body {
 }
 
 .grid {
-  border: 1px solid white;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
@@ -103,6 +102,119 @@ body {
 }
 .romano {
   background: linear-gradient(to bottom, $dark 50%, $espresso 50%);
+}
+
+.cappuccino {
+  background: linear-gradient(
+    to bottom,
+    $milkfoam 25%,
+    $steamedMilk 25%,
+    $steamedMilk 50%,
+    $espresso 50%
+  );
+}
+.americano {
+  background: linear-gradient(
+    to bottom,
+    $dark 10%,
+    $water 10%,
+    $water 65%,
+    $espresso 65%
+  );
+}
+.cafelatte {
+  background: linear-gradient(
+    to bottom,
+    $milkfoam 25%,
+    $steamedMilk 25%,
+    $steamedMilk 65%,
+    $espresso 65%
+  );
+}
+.flatwhite {
+  background: linear-gradient(
+    to bottom,
+    $steamedMilk 65%,
+    $espresso 65%
+  );
+}
+.marocchino {
+  background: linear-gradient(
+    to bottom,
+    $milkfoam 25%,
+    $chocolate 25%,
+    $chocolate 65%,
+    $espresso 65%
+  );
+}
+.mocha {
+  background: linear-gradient(
+    to bottom,
+    $whippedCream 20%,
+    $steamedMilk 20%,
+    $steamedMilk 40%,
+    $chocolate 40%,
+    $chocolate 65%,
+    $espresso 65%
+  );
+}
+.bicerin {
+  background: linear-gradient(
+    to bottom,
+    $whippedCream 20%,
+    $whiteChocolate 20%,
+    $whiteChocolate 40%,
+    $chocolate 40%,
+    $chocolate 65%,
+    $espresso 65%
+  );
+}
+.breve {
+  background: linear-gradient(
+    to bottom,
+    $dark 5%,
+    $milkfoam 5%,
+    $milkfoam 35%,
+    $steamedMilk 35%,
+    $steamedMilk 65%,
+    $espresso 65%
+  );
+}
+.rafcoffee {
+  background: linear-gradient(
+    to bottom,
+    $dark 5%,
+    $milkfoam 5%,
+    $milkfoam 35%,
+    $vanillaSugar 35%,
+    $vanillaSugar 65%,
+    $espresso 65%
+  );
+}
+.meadraf {
+  background: linear-gradient(
+    to bottom,
+    $dark 5%,
+    $milkfoam 5%,
+    $milkfoam 35%,
+    $honey 35%,
+    $honey 65%,
+    $espresso 65%
+  );
+}
+.viennacoffee {
+  background: linear-gradient(
+    to bottom,
+    $whippedCream 45%,
+    $espresso 45%
+  );
+}
+.chocolatemilk {
+  background: linear-gradient(
+    to bottom,
+    $steamedMilk 45%,
+    $espresso 45%
+  );
 }
 
 .info {
