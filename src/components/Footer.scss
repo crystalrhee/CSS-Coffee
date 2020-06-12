@@ -1,0 +1,27 @@
+@import './Coffee.scss';
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #ea7996;
+  p {
+    text-transform: uppercase;
+    color: $steamedMilk;
+    font-family: $sans;
+    letter-spacing: 3px;
+  }
+  a {
+    font-family: $sans;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+      color: $water;
+    }
+  }
+}
