@@ -2,3 +2,14 @@ html {
   display: grid;
   min-height: 100%;
 }
+
+body {
+  display: grid;
+  text-transform: uppercase;
+  min-width: 1600px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

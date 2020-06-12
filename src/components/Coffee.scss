@@ -3,14 +3,7 @@
 
 body {
   background: $dark;
-  display: grid;
   font-family: $sans;
-  text-transform: uppercase;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
 }
 
 .grid {
@@ -36,7 +29,7 @@ body {
   border: 2px solid $white;
   border-radius: 60% 30%;
   height: 20px;
-  left: 95%;
+  left: 90%;
   position: absolute;
   top: 10%;
   width: 15px;
@@ -64,13 +57,53 @@ body {
 }
 
 .espresso {
+  background: linear-gradient(to bottom, $dark 60%, $espresso 60%);
+}
+.doppio {
+  background: linear-gradient(to bottom, $dark 35%, $espresso 35%);
+}
+.lungo {
+  background: linear-gradient(
+    to bottom,
+    $dark 20%,
+    $water 20%,
+    $water 60%,
+    $espresso 60%
+  );
+}
+.ristretto {
   background: linear-gradient(to bottom, $dark 70%, $espresso 70%);
 }
-
-.doppio {
-  background: linear-gradient(to bottom, $dark 40%, $espresso 40%);
+.macchiato {
+  background: linear-gradient(
+    to bottom,
+    $dark 20%,
+    $milkfoam 20%,
+    $milkfoam 60%,
+    $espresso 60%
+  );
 }
-
+.corretto {
+  background: linear-gradient(
+    to bottom,
+    $dark 30%,
+    $liquor 30%,
+    $liquor 60%,
+    $espresso 60%
+  );
+}
+.conpanna {
+  background: linear-gradient(
+    to bottom,
+    $dark 5%,
+    $whippedCream 5%,
+    $whippedCream 60%,
+    $espresso 60%
+  );
+}
+.romano {
+  background: linear-gradient(to bottom, $dark 50%, $espresso 50%);
+}
 
 .info {
   margin-left: 150px;
