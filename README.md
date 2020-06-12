@@ -1,6 +1,6 @@
 ## CSS Coffee infographics
 
-![Image of Project]('https://github.com/crystalrhee/coffee/blob/master/project-status.png?raw=true')
+![Project Image]('https://github.com/crystalrhee/coffee/tree/master/src/project-status.png?raw=true')
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
