@@ -4,8 +4,7 @@ import './Header.scss';
 function Header() {
     return (
         <header>
-            <a href="/">CSS Coffee</a>
-            <a href="/">JS Coffee</a>
+            <a href="/CSS-Coffee">CSS Coffee</a>
         </header>
     );
 }
